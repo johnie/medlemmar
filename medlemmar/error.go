@@ -5,7 +5,7 @@ type Error struct {
 	Status int    `json:"status"`
 }
 
-var codes = map[int]string{
+var Codes = map[int]string{
 	400: "Bad Request",
 	404: "Not Found",
 }

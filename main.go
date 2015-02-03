@@ -127,5 +127,5 @@ func medlemDelete(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleError(w http.ResponseWriter, code int) {
-	JSON(w, Error{codes[code], code}, code)
+	JSON(w, Error{Codes[code], code}, code)
 }
