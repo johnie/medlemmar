@@ -1,4 +1,4 @@
-package main
+package medlemmar
 
 type Error struct {
 	Error  string `json:"error"`
