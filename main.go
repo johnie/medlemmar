@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
+	. "./medlemmar"
 	"gopkg.in/mgo.v2"
 )
 
